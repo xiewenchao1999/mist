@@ -1,0 +1,30 @@
+{
+  "name": "mist-frosted-glass",
+  "version": "1.0.0",
+  "description": "Adds a frosted glass effect to your Obsidian notes, with clear areas that follow your cursor.",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "node esbuild.config.mjs production",
+    "lint": "eslint . --ext .ts,.tsx --report-unused-disable-directives --max-warnings 0",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "obsidian",
+    "plugin",
+    "frosted-glass",
+    "mist",
+    "effect"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "@typescript-eslint/eslint-plugin": "^7.16.1",
+    "@typescript-eslint/parser": "^7.16.1",
+    "esbuild": "^0.27.0",
+    "eslint": "^8.57.0",
+    "obsidian": "^1.10.3",
+    "typescript": "^5.9.3"
+  }
+}

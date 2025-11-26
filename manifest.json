@@ -1,0 +1,11 @@
+{
+  "id": "mist-frosted-glass",
+  "name": "Mist - Frosted Glass Effect",
+  "version": "1.0.0",
+  "minAppVersion": "1.10.0",
+  "description": "Adds a frosted glass effect to your Obsidian notes, with clear areas that follow your cursor.",
+  "author": "Your Name",
+  "authorUrl": "https://github.com/yourusername/mist",
+  "isDesktopOnly": false,
+  "fundingUrl": "https://github.com/sponsors/yourusername"
+}
